@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    height: 100px; 
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.picture{
+    width: 250px;
+    margin-left: 50px;
+    position: relative;
+    z-index: 10;
+}
+.btn1{
+    margin-left: 600px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 120px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.body1{
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/9db4a880-3034-4e98-bdea-5d983e86bf52/b5953637-091d-4e02-9754-2bfadc8a8f7c/IN-en-20230925-popsignuptwoweeks-perspective_alpha_website_medium.jpg );
+    width: 100%;
+    height: 700px;
+}
+.sub{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.615);
+    position: absolute;
+}
+.heading1{
+    color: white;
+    font-size: 50px;
+    padding-top: 200px;
+    padding-left: 250px;
+    position: relative;
+    z-index: 10;
+}
+.heading2{
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 650px;
+    position: relative;
+    z-index: 10;
+}
+.heading3{
+    color: white;
+    font-size: 24px;
+    padding-left: 500px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+.button1{
+   margin-left: 500px;
+   margin-top: 30px;
+   font-size: 16px;
+   width:350px;
+   height:40px;
+   /* Transeperent */
+   background-color: rgba(0, 0, 0, 0.615);
+   color: white;
+   position: relative;
+}
+.button2{
+    margin-left: 2px;
+    margin-top: 30px;
+    font-size: 16px;
+    width:150px;
+    height:40px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgba(248, 23, 23, 0.86);
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    border: none;
+}
+/* it divedes all the pages by border */
+.border{
+    width: 100%;
+    height: 5px;
+    background-color: grey;
+}
+.main2{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.image2{
+    width: 500px;
+    margin-left: 200px; 
+   margin-bottom: 30px;
+}
+.head2{
+    font-size: 50px;
+    margin-left: 130px; 
+}
+.para2{
+    font-size: 30px;
+    margin-left: 100px; 
+    margin-top: 10px;
+}
+.main1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: black; 
+    align-items: center;
+}
+.image1{
+    width: 500px;
+    margin-left: 200px;
+}
+.head1{
+    font-size: 50px; 
+    color: white;  
+    margin-right: 200px;
+    padding-left: 200px;
+}
+.para1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;  
+    padding-left: 200px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    background-color: black;
+    color: white;
+}
+.heading{
+    font-size: 55px;
+    padding-left: 70px;
+}
+.para {
+    font-size: 25px;
+    padding-left: 70px;
+}
+
+.main{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    display: flex;
+    color: white;
+}
+.img{
+    width: 50%;
+    height: 500px; 
+    margin-right: 80px;
+}
+.body{
+    color: white;
+    margin-top: 100px;
+}
+.h1{
+    font-size: 50px;
+}
+.p{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.main3{
+    background-color: black;
+    width: 100%;
+    height: 550px;
+    color: white;
+}
+.h2{
+    font-size: 50px;
+    margin-left: 450px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.h3{
+    border: 1px solid grey;
+    background-color: rgba(128, 128, 128, 0.378);
+    width: 950px;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-left: 250px;
+}
+.h4{
+    padding-top: 25px;
+    font-size: 20px;
+    margin-left: 450px;
+}
+.footer{
+    width: 100%;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    height: 330px;
+}
+.list{
+    display: flex;
+    gap:140px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.button11{
+    margin-left: 450px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.615);
+    color: white;
+    border-color: white;
+    width: 300px;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-width:1px;
+    margin-top: 20px;
+}
+.button12{
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    height: 40px;
+}
+.h5{
+    /* padding-left: 150px; */
+    padding-top: 70px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.h6{
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.li{
+    list-style: none;
+    font-size: 15px;
+}
+.btn3{
+    margin-left: 150px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 120px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-width:1px;
+    margin-top: 20px;
+}
+    
